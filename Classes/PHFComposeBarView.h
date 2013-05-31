@@ -18,6 +18,7 @@ extern NSString *const PHFComposeBarViewAnimationCurveUserInfoKey;    // NSNumbe
 extern NSString *const PHFComposeBarViewFrameBeginUserInfoKey;        // NSValue of CGRect
 extern NSString *const PHFComposeBarViewFrameEndUserInfoKey;          // NSValue of CGRect
 
+extern CGFloat kTextViewToSuperviewHeightDelta;
 
 @protocol PHFComposeBarViewDelegate;
 

@@ -46,7 +46,7 @@ NSTimeInterval const kScrollAnimationDelay       = 0.1;
 // Calculated at runtime:
 static CGFloat kTextViewLineHeight;
 static CGFloat kTextViewFirstLineHeight;
-static CGFloat kTextViewToSuperviewHeightDelta;
+CGFloat kTextViewToSuperviewHeightDelta;
 
 
 @interface PHFComposeBarView ()
