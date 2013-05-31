@@ -297,7 +297,7 @@ static CGFloat kTextViewToSuperviewHeightDelta;
                                   20.0f);
         _charCountLabel = [[UILabel alloc] initWithFrame:frame];
         [_charCountLabel setHidden:![self maxCharCount]];
-        [_charCountLabel setTextAlignment:UITextAlignmentCenter];
+        [_charCountLabel setTextAlignment:NSTextAlignmentCenter];
         [_charCountLabel setBackgroundColor:[UIColor clearColor]];
         [_charCountLabel setFont:[UIFont boldSystemFontOfSize:[UIFont smallSystemFontSize]]];
         [_charCountLabel setTextColor:[UIColor colorWithWhite:0.5f alpha:1.0f]];
@@ -396,7 +396,7 @@ static CGFloat kTextViewToSuperviewHeightDelta;
         [_placeholderLabel setTextColor:[UIColor colorWithWhite:0.67f alpha:1.0f]];
         [_placeholderLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
         [_placeholderLabel setAdjustsFontSizeToFitWidth:YES];
-        [_placeholderLabel setMinimumFontSize:[UIFont smallSystemFontSize]];
+        [_placeholderLabel setMinimumScaleFactor:0];
     }
 
     return _placeholderLabel;
