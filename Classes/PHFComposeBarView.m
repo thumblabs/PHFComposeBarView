@@ -16,9 +16,9 @@ NSString *const PHFComposeBarViewAnimationDurationUserInfoKey = @"PHFComposeBarV
 NSString *const PHFComposeBarViewAnimationCurveUserInfoKey    = @"PHFComposeBarViewAnimationCurve";
 
 
-CGFloat const kHorizontalPadding         =  6.0f;
+CGFloat const kHorizontalPadding         =  5.0f;
 CGFloat const kTopPadding                =  8.0f;
-CGFloat const kBottomPadding             =  5.0f;
+CGFloat const kBottomPadding             =  9.0f;
 CGFloat const kTextViewSidePadding       =  2.0f;
 CGFloat const kTextViewTopPadding        = -6.0f;
 CGFloat const kTextViewScrollInsetTop    =  6.0f;
